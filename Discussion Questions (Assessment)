@@ -1,0 +1,48 @@
+Discussion Questions (Assessment)
+
+Recursion:
+1. A recursive function is one that calls itself. They work like Russian nesting dolls - each recursion finishing and closing before the previous recursion closes and returns. Recursion also requires a base case that ends the recursion.
+
+2. The base case cannot be recursed. It's the smallest case and is required to stop the recursion from continuing to inifity. When the base case is reached, each recursive function begins to return.
+
+
+Graphs:
+1. A graph is a data structure like a tree, but without a root or directionality. It contains nodes and adjacency relationships (instead of children).
+
+2. A graph can loop and be non-directional.
+
+3. LinkedIn is a good example of a graph. It keeps track of individuals and their relationship to other individuals. Usually, a friendship works in both directions vs a tree using a directional heirarchy to define the relationship between nodes.
+
+
+Performance chart:
+List: Add-L: O(n) // Pop-L: O(n) // Pop-R: O(1)
+
+Linked List: Index: O(n) // Search: O(n)  // Add-R: O(n) if no tail defined, if there is a tail it's O(1) // Add-L: O(1)  // Pop-L: O(1)  // Pop-R: O(n)
+
+Doubly Linked Lists: Index: O(n) // Search O(n) // Add-R: O(1) // Add-L: O(1) // Pop-L: O(1) // Pop-R: O(1)
+
+Queue (Array): Add-R: O(1) // Pop-L: O(n)
+
+Queue (LL/DLL): Add-R: O(1) // Pop-L: O(1)
+
+Stack: Add-R: O(1) // Pop-R: O(1)
+
+Deque: Add-R: O(1) // Add-L: O(1) // Pop-L: O(1) // Pop-R: O(1)
+
+
+Runtime and Memory Chart:
+Set(Hash Map): Get: O(1) // Add: O(1) // Delete O(1) // Iterate O(n) // Memory medium
+
+Binary Search Tree: Get: O(log n) // Add: O(log n) // Delete O(log n) // Iterate: O(log n) // memory: little
+
+Tree: Get: O(n) // Add: O(1) // Delete: O(1) // Iterate: O(n) // Memory: little
+
+
+Sorting:
+1. Bubble sort bubbles the largest value to the right with each iteration. Each iteration compares a pair of values, if the value on the left is larger the pair is swapped. If not, the program compares the next pair over.
+
+2. Merge sort takes two sorted lists, compares the first item from each list and drops the lowest of the two values into a new list. The process continues until both original lists are empty. This sort uses recursion.
+
+3. Quick sort chooses a pivot point and then puts values lower than the pivot point to the left and values higher to the right. It continues the process until the entire list is sorted. This seems similary to the way a binary search tree works, always directing lower values left of center and higher values right of center.
+
+
